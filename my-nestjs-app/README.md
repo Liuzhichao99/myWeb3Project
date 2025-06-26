@@ -96,3 +96,18 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## 验证合约
+npx hardhat verify --network sepolia 0x你的合约地址
+
+然后你就可以在 Etherscan 上看到源码了
+https://sepolia.etherscan.io/address/0xAbc123456789abXXXXX
+
+
+## 部署合约
+ENV=local npx hardhat run scripts/deploy.ts --network sepolia
+你会看到类似输出：
+
+
+🚀 正在部署 MessageBoard 合约...
+✅ 部署成功！合约地址: 0xabc123456789...

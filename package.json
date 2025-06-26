@@ -3,5 +3,26 @@
     "@nestjs/config": "^4.0.2",
     "ethers": "^6.14.3",
     "nft.storage": "^7.2.0"
-  }
+  },
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "hardhat": "^2.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liuzhichao99/myWeb3Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liuzhichao99/myWeb3Project/issues"
+  },
+  "homepage": "https://github.com/Liuzhichao99/myWeb3Project#readme"
 }
